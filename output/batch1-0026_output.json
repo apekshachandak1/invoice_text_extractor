@@ -1,0 +1,51 @@
+{
+    "Invoice Number": "51295021",
+    "Invoice Date": "01/05/2017",
+    "Seller": {
+        "Name": "Sims-Olson Martinez-English",
+        "Address": "USS Bell 12196 Barrett Plain Suite 873",
+        "City_State_Zip": "FPO AP 94327 North Victorborough, NY 32585",
+        "Tax ID": "965-87-8819",
+        "IBAN": "GB64NDCS47020318571282"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Sims-Olson Martinez-English USS Bell Barrett Plain Suite FPO AP North Victorborough, NY Tax Id: --Tax Id: --IBAN: GBNDCS———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 51295021.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "'x' Black Center Top Table  each % Italian Marquetry Gemstone Art Columba's Day Gift",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 688.0,
+            "VAT": 376.0,
+            "Gross worth": 113.6
+        },
+        {
+            "Description": "\" Marble Side Coffee Table  each  % Top Multi Stone Floral Inlay Occasional Decor W———_ SUMMARY",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 259.77,
+            "VAT": 39.08,
+            "Gross worth": 142.99
+        }
+    ],
+    "Summary": {
+        "Net worth": 259.77,
+        "VAT": 39.08,
+        "Gross worth": 142.99
+    }
+}

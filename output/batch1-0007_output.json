@@ -1,0 +1,96 @@
+{
+    "Invoice Number": "11580833",
+    "Invoice Date": "11/24/2019",
+    "Seller": {
+        "Name": "Wood, Simpson and Summers Tapia LLC",
+        "Address": "7000 Graves Ville 53393 Peters Overpass",
+        "City_State_Zip": "Juliastad, OH 02764 Boothside, WY 76847",
+        "Tax ID": "979-96-3992",
+        "IBAN": "GB61VHVS67246807986062"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Wood, Simpson and Summers Tapia LLC Graves Ville Peters Overpass Juliastad, OH Boothside, WY Tax Id: --Tax Id: --IBAN: GBVHVS————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 11580833.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Dell Optiplex SFF Desktop  each   %  Computer Windows GB GB",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 89.99,
+            "VAT": 89.99,
+            "Gross worth": 98.99
+        },
+        {
+            "Description": "Dell Desktop Computer{Inte!  each   %  Core Duo GB TB HD OWindows PC \" LCD Wifi",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 69.95,
+            "VAT": 209.85,
+            "Gross worth": 230.84
+        },
+        {
+            "Description": "HP Pro Core iGHz  each  % Quad Core GB GB Computer",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 256.68,
+            "VAT": 283.4,
+            "Gross worth": 411.74
+        },
+        {
+            "Description": "Vintage Microsolutions Pentium  each  % mhz Desktop Tower PC Windows Floppy",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 390.0,
+            "VAT": 170.0,
+            "Gross worth": 287.0
+        },
+        {
+            "Description": "Dell OptiPlex SFF  each   %  Computer, th Gen Core i, GB ODR, New GB SSD, DVD",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 202.5,
+            "VAT": 810.0,
+            "Gross worth": 891.0
+        },
+        {
+            "Description": "Custom Gaming PC Computer  each   %  FX-GHz GB RAM GB SSD TB HDD RX GB",
+            "Qty": 6.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 449.99,
+            "VAT": 449.39,
+            "Gross worth": 494.99
+        },
+        {
+            "Description": "Custom Build HP Desktop  each   %  Computer GB | TB | SSD | Windows Windows PC WiFi o—o_! SUMMARY VAT [%] Net worth VAT Gross worth % Total $ $  $",
+            "Qty": 7.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 329.0,
+            "VAT": 658.0,
+            "Gross worth": 723.8
+        }
+    ],
+    "Summary": {
+        "Net worth": 329.0,
+        "VAT": 658.0,
+        "Gross worth": 723.8
+    }
+}

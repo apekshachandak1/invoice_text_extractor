@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "89969473",
+    "Invoice Date": "10/29/2016",
+    "Seller": {
+        "Name": "Johnson-Martin Deleon, Davila and Allen",
+        "Address": "3836 Moore Ports 355 King Lake Suite 071",
+        "City_State_Zip": "North Michael, MO 01844 South Haleyshire, KY 55765",
+        "Tax ID": "944-77-3882",
+        "IBAN": "GB71GB0G68039919194335"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Johnson-Martin Deleon, Davila and Allen Moore Ports King Lake Suite North Michael, MO South Haleyshire, KY Tax Id: --Tax Id: --IBAN: GBGBG————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 89969473.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Wild West Wine  each   %",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 27.0,
+            "VAT": 54.0,
+            "Gross worth": 59.4
+        },
+        {
+            "Description": "Press Wine L Fruit Cider  each   %  Apple Crusher Juice Grape Stainless Maker Grapes New",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 279.0,
+            "VAT": 558.0,
+            "Gross worth": 613.8
+        },
+        {
+            "Description": "Wine Rack Holder Iron Art  each   %  Hanging Racks Glass Cup Stemware Shelf Mounted Color",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 18.75,
+            "VAT": 56.25,
+            "Gross worth": 61.87
+        },
+        {
+            "Description": "Rust Proof Three Rows Tool  each   %  Wine Glass Holder Simple Iron Wire Home Hanging Rack",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 11.56,
+            "VAT": 23.12,
+            "Gross worth": 25.43
+        },
+        {
+            "Description": "VTG s MCM Brown Steel  each   %  Tube Wall or Desk Mounted -Wine Rack Bottle Holder —o_, SUMMARY %    Total $  $  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 34.0,
+            "VAT": 34.0,
+            "Gross worth": 37.4
+        }
+    ],
+    "Summary": {
+        "Net worth": 34.0,
+        "VAT": 34.0,
+        "Gross worth": 37.4
+    }
+}

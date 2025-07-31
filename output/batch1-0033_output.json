@@ -1,0 +1,42 @@
+{
+    "Invoice Number": "97388190",
+    "Invoice Date": "12/13/2016",
+    "Seller": {
+        "Name": "Cook Ltd Pierce Inc",
+        "Address": "2101 Meyer Plaza 461 Matthew Via Apt. 391",
+        "City_State_Zip": "North Karen, LA 39773 Lake Troyview, MA 07142",
+        "Tax ID": "986-76-0381",
+        "IBAN": "GB36VWDA36824721563097"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Cook Ltd Pierce Inc Meyer Plaza Matthew Via Apt. North Karen, LA Lake Troyview, MA Tax Id: --Tax Id: --IBAN: GBVWDA———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 97388190.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Dell Optiplex Windows each   %  Professional Desktop Computer GB GB DVD ———_! SUMMARY",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 99.95,
+            "VAT": 299.85,
+            "Gross worth": 329.84
+        }
+    ],
+    "Summary": {
+        "Net worth": 99.95,
+        "VAT": 299.85,
+        "Gross worth": 329.84
+    }
+}

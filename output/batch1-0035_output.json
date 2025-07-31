@@ -1,0 +1,96 @@
+{
+    "Invoice Number": "78605417",
+    "Invoice Date": "08/07/2017",
+    "Seller": {
+        "Name": "Campos LLC Wilson-Hernandez",
+        "Address": "15809 Christina Cove Apt. 190 5998 Stephen Squares",
+        "City_State_Zip": "Danielmouth, OR 11509 Maryville, OH 19487",
+        "Tax ID": "940-87-7017",
+        "IBAN": "GB17WVTT56005535188252"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Campos LLC Wilson-Hernandez Christina Cove Apt. Stephen Squares Danielmouth, OR Maryville, OH Tax Id: --Tax Id: --IBAN: GBWVTT————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 78605417.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Nike Pre School Kids Size C  each   %  Jordan Jumpman Team I! (PS) AQ-",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 59.99,
+            "VAT": 179.97,
+            "Gross worth": 197.97
+        },
+        {
+            "Description": "Nike Air Force Low  each   %  -Triple White Youth Boys Size Y",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 54.95,
+            "VAT": 164.85,
+            "Gross worth": 181.34
+        },
+        {
+            "Description": "Adult Girl Version Hermione  each   %  Granger Cosplay Costume Gryffindor Kid size In Stock",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 64.16,
+            "VAT": 128.32,
+            "Gross worth": 141.15
+        },
+        {
+            "Description": "Adidas Baseball Youth Cleats  each   %  Spikes Kids Shoes Black White Size K",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 11.99,
+            "VAT": 35.97,
+            "Gross worth": 39.57
+        },
+        {
+            "Description": "Harry Potter Hogwarts Adult  each   %  Child Robe Cloak Halloween COS Costumes Party Xmas.",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 17.48,
+            "VAT": 87.4,
+            "Gross worth": 96.14
+        },
+        {
+            "Description": "Sperry Infant Size Boat Shoes  each   %",
+            "Qty": 6.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 0.99,
+            "VAT": 4.95,
+            "Gross worth": 5.45
+        },
+        {
+            "Description": "OC Kids Pixie Sneaker  each   %  (Toddler/Little Kid/Big Kid) Color WHITE/BATTLESHIP —o_! SUMMARY VAT [%] Net worth VAT Gross worth %    Total $  $  $",
+            "Qty": 7.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 55.0,
+            "VAT": 55.0,
+            "Gross worth": 60.5
+        }
+    ],
+    "Summary": {
+        "Net worth": 55.0,
+        "VAT": 55.0,
+        "Gross worth": 60.5
+    }
+}

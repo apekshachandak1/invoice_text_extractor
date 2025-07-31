@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "96430839",
+    "Invoice Date": "01/13/2019",
+    "Seller": {
+        "Name": "Bennett, Chavez and Vazquez Alexander-Petersen",
+        "Address": "Unit 8361 Box 7078 647 Joyce Ville",
+        "City_State_Zip": "DPO AE 69202 Waltonfort, IA 57670",
+        "Tax ID": "934-91-7455",
+        "IBAN": "GBSORYME18980824175499"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Bennett, Chavez and Vazquez Alexander-Petersen Unit Box Joyce Ville DPO AE Waltonfort, IA Tax Id: --Tax Id: --IBAN: GBSORYME————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 96430839.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Dell Optiplex MT Computer  each  % PC Quad Core iGHz GB TB HD Windows Pro",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 269.95,
+            "VAT": 79.8,
+            "Gross worth": 187.78
+        },
+        {
+            "Description": "Open Box: Dell XPS each   %  Desktop Computer Intel Core iGB RAM TB HOD Black -",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 718.11,
+            "VAT": 718.11,
+            "Gross worth": 789.92
+        },
+        {
+            "Description": "Dell i-| GB | TB |  each  % $SD Windows Pro Desktop Computer PC WiFi DVD",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 349.95,
+            "VAT": 749.75,
+            "Gross worth": 924.73
+        },
+        {
+            "Description": "Dell Optiplex SFF PC  each   %  Computer Intel Core i-GHz GB RAM GB HDD",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 99.99,
+            "VAT": 399.96,
+            "Gross worth": 439.96
+        },
+        {
+            "Description": "HP Desktop Computer PC each   %  Core iGB TB HD GB $SD \" LCD J Windows ——— SUMMARY %   Total $  $  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 139.95,
+            "VAT": 559.8,
+            "Gross worth": 615.78
+        }
+    ],
+    "Summary": {
+        "Net worth": 139.95,
+        "VAT": 559.8,
+        "Gross worth": 615.78
+    }
+}

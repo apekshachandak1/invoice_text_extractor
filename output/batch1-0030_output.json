@@ -1,0 +1,69 @@
+{
+    "Invoice Number": "58379529",
+    "Invoice Date": "05/31/2011",
+    "Seller": {
+        "Name": "Dalton, Chambers and Howard Tanner Inc",
+        "Address": "970 Robert Via Apt. 832 86727 Henderson Summit Suite 008",
+        "City_State_Zip": "Daviston, UT 17011 Port Davidland, ME 56702",
+        "Tax ID": "913-94-1721",
+        "IBAN": "GBO3KMWL18203008008726"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Dalton, Chambers and Howard Tanner Inc Robert Via Apt. Henderson Summit Suite Daviston, UT Port Davidland, ME Tax Id: --Tax Id: --IBAN: GBOKMWL————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 58379529.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "AMD Custom Ryzen Quad  each  % Core Gaming PC GHZ Computer GB TB AMDDRVega",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 574.99,
+            "VAT": 299.96,
+            "Gross worth": 529.96
+        },
+        {
+            "Description": "WS Pro Mini Pocket PC Windows  each   %",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 119.0,
+            "VAT": 238.0,
+            "Gross worth": 261.8
+        },
+        {
+            "Description": "Computer Stick Intel Quad Core",
+            "Qty": 10.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Dell Desktop Computer]GB  each   %  TB HD OR $GB SSD Quad Core iSQWindows \" LCD —— SUMMARY",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 129.95,
+            "VAT": 129.95,
+            "Gross worth": 142.94
+        }
+    ],
+    "Summary": {
+        "Net worth": 129.95,
+        "VAT": 129.95,
+        "Gross worth": 142.94
+    }
+}

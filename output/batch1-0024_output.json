@@ -1,0 +1,42 @@
+{
+    "Invoice Number": "65028137",
+    "Invoice Date": "01/03/2014",
+    "Seller": {
+        "Name": "Johnson, Barrett and King Townsend-Mitchell",
+        "Address": "2008 Thomas Square 0681 Thomas Field",
+        "City_State_Zip": "Sanchezmouth, AK 49318 Michaelshire, FL 64856",
+        "Tax ID": "988-84-2952",
+        "IBAN": "GB10AMVD30795287137531"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Johnson, Barrett and King Townsend-Mitchell Thomas Square Thomas Field Sanchezmouth, AK Michaelshire, FL Tax Id: --Tax Id: --IBAN: GBAMVD———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 65028137.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Fast Dell Optiplex Windows each   %  Desktop Computer Tower PC Core GHz GB GB ———I SUMMARY",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 89.95,
+            "VAT": 89.95,
+            "Gross worth": 98.95
+        }
+    ],
+    "Summary": {
+        "Net worth": 89.95,
+        "VAT": 89.95,
+        "Gross worth": 98.95
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "Invoice Number": "74589240",
+    "Invoice Date": "12/08/2013",
+    "Seller": {
+        "Name": "Hall-Boyd Haas and Sons",
+        "Address": "8719 Reed Street Apt. 120 65628 Brittany Dale",
+        "City_State_Zip": "East Michelleborough, KY 93895 Walterschester, LA 26239",
+        "Tax ID": "981-73-4585",
+        "IBAN": "GB51FSWB55572342266497"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Hall-Boyd Haas and Sons Reed Street Apt. Brittany Dale East Michelleborough, KY Walterschester, LA Tax Id: --Tax Id: --IBAN: GBFSWB————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 74589240.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "D Printed Mat Vortex Illusion  each   %  Living room Rug Carpet Floors Doors Round Mat",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 11.63,
+            "VAT": 34.89,
+            "Gross worth": 38.38
+        },
+        {
+            "Description": "New Golden Brown Oriental Rug  each  % XOushak Chobi Floral Hand-Knotted Foyer Carpet",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 232.65,
+            "VAT": 163.25,
+            "Gross worth": 279.58
+        },
+        {
+            "Description": "YILONG 'x' Handknotted  each % Silk Area Rugs Home Decor Classic Blue Carpet",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 560.0,
+            "VAT": 560.0,
+            "Gross worth": 616.0
+        },
+        {
+            "Description": "Pretty Woman Small Large Long  each   %  Floor Carpet Area Rugs Various Size Soft Rug ——— SUMMARY % Total $$ $",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 36.3,
+            "VAT": 36.3,
+            "Gross worth": 39.93
+        }
+    ],
+    "Summary": {
+        "Net worth": 36.3,
+        "VAT": 36.3,
+        "Gross worth": 39.93
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "Invoice Number": "19471831",
+    "Invoice Date": "04/09/2014",
+    "Seller": {
+        "Name": "Palmer Ltd Rios, Oneill and Rowe",
+        "Address": "9790 Bauer Hills Apt. 146 3571 Tina Trafficway",
+        "City_State_Zip": "South Patriciaton, SD 32497 Buckleyland, LA 97688",
+        "Tax ID": "922-72-5979",
+        "IBAN": "GBO5YUTG50853913677557"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Palmer Ltd Rios, Oneill and Rowe Bauer Hills Apt. Tina Trafficway South Patriciaton, SD Buckleyland, LA Tax Id: --Tax Id: --IBAN: GBOYUTG———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 19471831.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "°x\" White Decorative  each  % Coffee Table Top Lapis Lazuli Marquetery Patio Décor",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 645.77,
+            "VAT": 937.31,
+            "Gross worth": 131.04
+        },
+        {
+            "Description": "'x' Marble Dining Table Top  each % Pietra Dura Birds Inlay Art Furniture Decors B",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 840.1,
+            "VAT": 200.5,
+            "Gross worth": 120.55
+        },
+        {
+            "Description": "Inches Marble Dinning Table  each % Top Hand Inlaid Garden Table with Gemstones —oal SUMMARY",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 908.0,
+            "VAT": 540.0,
+            "Gross worth": 494.0
+        }
+    ],
+    "Summary": {
+        "Net worth": 908.0,
+        "VAT": 540.0,
+        "Gross worth": 494.0
+    }
+}

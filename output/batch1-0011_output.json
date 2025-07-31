@@ -1,0 +1,51 @@
+{
+    "Invoice Number": "68688408",
+    "Invoice Date": "03/20/2016",
+    "Seller": {
+        "Name": "Torres and Sons Dennis, Levy and Bowen",
+        "Address": "4052 Brown Roads 523 Leslie Manors",
+        "City_State_Zip": "Haysstad, N) 06418 Lake Colleenville, CT 12053",
+        "Tax ID": "904-82-9186",
+        "IBAN": "GB84XSNO58142814072766"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Torres and Sons Dennis, Levy and Bowen Brown Roads Leslie Manors Haysstad, N) Lake Colleenville, CT Tax Id: --Tax Id: --IBAN: GBXSNO————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 68688408.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Nike -Team Hustle  each   %  OKids Blue Mid Top Basketball Shoes Size Y¥ US",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 10.99,
+            "VAT": 32.97,
+            "Gross worth": 36.27
+        },
+        {
+            "Description": "Jordan Nike Kid Air Retro High  each   %  Black Gray Elephant Size Y -———_ SUMMARY",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 50.0,
+            "VAT": 50.0,
+            "Gross worth": 55.0
+        }
+    ],
+    "Summary": {
+        "Net worth": 50.0,
+        "VAT": 50.0,
+        "Gross worth": 55.0
+    }
+}

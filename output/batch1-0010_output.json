@@ -1,0 +1,51 @@
+{
+    "Invoice Number": "99314100",
+    "Invoice Date": "06/25/2014",
+    "Seller": {
+        "Name": "Michael, Farrell and Lee Collins, Barrett and Schroeder",
+        "Address": "95360 Washington Inlet 2314 Beard Via",
+        "City_State_Zip": "Port Sandraview, CT 01507 Kellybury, GA 19687",
+        "Tax ID": "908-81-7850",
+        "IBAN": "GB20WFQR49970703277369"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Michael, Farrell and Lee Collins, Barrett and Schroeder Washington Inlet Beard Via Port Sandraview, CT Kellybury, GA Tax Id: --Tax Id: --IBAN: GBWFQR———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 99314100.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Real Madrid Inflatable Chair  each   %  (SG",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 43.95,
+            "VAT": 219.75,
+            "Gross worth": 241.73
+        },
+        {
+            "Description": "Inches Marble Dinning Table  each % Top Inlay Work Lawn Table with Multi Color Stones ———I SUMMARY",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 756.0,
+            "VAT": 756.0,
+            "Gross worth": 331.6
+        }
+    ],
+    "Summary": {
+        "Net worth": 756.0,
+        "VAT": 756.0,
+        "Gross worth": 331.6
+    }
+}

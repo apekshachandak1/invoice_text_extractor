@@ -1,0 +1,87 @@
+{
+    "Invoice Number": "44456646",
+    "Invoice Date": "03/21/2015",
+    "Seller": {
+        "Name": "Austin and Sons Delacruz, Hinton and Mckinney",
+        "Address": "9090 Thomas Route Apt. 293 3867 Annette Tunnel",
+        "City_State_Zip": "Johnsonburgh, [A 81799 North Codybury, FL 61678",
+        "Tax ID": "940-84-8016",
+        "IBAN": "GB48PIBU37974446029688"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Austin and Sons Delacruz, Hinton and Mckinney Thomas Route Apt. Annette Tunnel Johnsonburgh, [A North Codybury, FL Tax Id: --Tax Id: --IBAN: GBPIBU————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 44456646.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "crewcuts shoes  each   %",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 12.0,
+            "VAT": 48.0,
+            "Gross worth": 52.8
+        },
+        {
+            "Description": "nickelodeon TMNT Teenage  each   %  Mutant Ninja Turtles DL MR Gin Action Figure Kids Toy",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 42.98,
+            "VAT": 85.96,
+            "Gross worth": 94.56
+        },
+        {
+            "Description": "Lands‘ End Kids Boys Snow  each   %  Winter Boots Size Blue Warm Zip Up Easy On Easy Off",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 9.5,
+            "VAT": 28.5,
+            "Gross worth": 31.35
+        },
+        {
+            "Description": "Under Armour KIDS’ LOCKDOWN  each   %",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 19.99,
+            "VAT": 99.95,
+            "Gross worth": 109.94
+        },
+        {
+            "Description": "BASKETBALL Black/Red/White Youth Sneakers: $z k",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "SEVENTEEN Semicolon Special  each   %  Album (Photocard / Digi Pack Cover / Mini Card] —o_ SUMMARY %    Total $  $  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 4.99,
+            "VAT": 24.95,
+            "Gross worth": 27.45
+        }
+    ],
+    "Summary": {
+        "Net worth": 4.99,
+        "VAT": 24.95,
+        "Gross worth": 27.45
+    }
+}

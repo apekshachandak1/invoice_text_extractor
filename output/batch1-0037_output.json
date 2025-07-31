@@ -1,0 +1,33 @@
+{
+    "Invoice Number": "61669642",
+    "Invoice Date": "11/12/2013",
+    "Seller": {
+        "Name": "Carter Inc Torres, Sutton and Weeks",
+        "Address": "7936 Smith Streets 618 Perez Shoals Suite 978",
+        "City_State_Zip": "Mariahchester, PA 08114 Bradshawton, TN 51301",
+        "Tax ID": "909-87-3064",
+        "IBAN": "GB89DNYK55635059269556"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Carter Inc Torres, Sutton and Weeks Smith Streets Perez Shoals Suite Mariahchester, PA Bradshawton, TN Tax Id: --Tax Id: --IBAN: GBDNYK———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth ———= SUMMARY",
+            "Qty": 61669642.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        }
+    ],
+    "Summary": {
+        "Net worth": null,
+        "VAT": null,
+        "Gross worth": null
+    }
+}

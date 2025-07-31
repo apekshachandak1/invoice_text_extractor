@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "35593328",
+    "Invoice Date": "06/08/2011",
+    "Seller": {
+        "Name": "Cruz-Carter Alexander-Arias",
+        "Address": "11251 Braun Square 63947 Erin Parkway Apt. 073",
+        "City_State_Zip": "North Alejandro, UT 73496 Guzmanshire, NY 08857",
+        "Tax ID": "942-92-5992",
+        "IBAN": "GB42RIFK65000994976015"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Cruz-Carter Alexander-Arias Braun Square Erin Parkway Apt. North Alejandro, UT Guzmanshire, NY Tax Id: --Tax Id: --IBAN: GBRIFK————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 35593328.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "hp all in one desktop computer  each   %  touch screen",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 205.0,
+            "VAT": 820.0,
+            "Gross worth": 902.0
+        },
+        {
+            "Description": "WSPro Mini Pocket PC Windows  each   %",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 119.0,
+            "VAT": 357.0,
+            "Gross worth": 392.7
+        },
+        {
+            "Description": "Computer Stick Intel Quad Core",
+            "Qty": 10.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Gaming PC Desktop Computer  each   % HDMI RGB Intel iRTX , HDD+SSD, Windows , Wifi",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 999.5,
+            "VAT": 999.5,
+            "Gross worth": 99.45
+        },
+        {
+            "Description": "Lenovo €-..all in one  each   %  desktop computer ...with Wireless Mouse..... ——a SUMMARY VAT [%] Net worth VAT Gross worth % Total $$  $",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 277.64,
+            "VAT": 555.28,
+            "Gross worth": 610.81
+        }
+    ],
+    "Summary": {
+        "Net worth": 277.64,
+        "VAT": 555.28,
+        "Gross worth": 610.81
+    }
+}

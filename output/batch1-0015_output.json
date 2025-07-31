@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "46506594",
+    "Invoice Date": "03/12/2012",
+    "Seller": {
+        "Name": "Porter-Perkins Castaneda LLC",
+        "Address": "88652 James Loaf 19558 Fry Causeway",
+        "City_State_Zip": "East Alyssamouth, KS 81684 East Chelseytown, MD 95490",
+        "Tax ID": "940-86-9734",
+        "IBAN": "GB49G)RS28729607733931"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Porter-Perkins Castaneda LLC James Loaf Fry Causeway East Alyssamouth, KS East Chelseytown, MD Tax Id: --Tax Id: --IBAN: GBG)RS————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 46506594.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Nintendo DS Handheld Console  each   %  Purple",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 98.99,
+            "VAT": 494.95,
+            "Gross worth": 544.45
+        },
+        {
+            "Description": "PocketGo Bittboy vWhite  each   %  Retro Video Game Portable Console - IPS display",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 39.0,
+            "VAT": 156.0,
+            "Gross worth": 171.6
+        },
+        {
+            "Description": "Sony PlayStation Slim Geach   %  Black Console , Microsoft Xbox - White -  each   %  Console, Power Supply, AV Cables *Tested, Working*",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 99.99,
+            "VAT": 399.96,
+            "Gross worth": 439.96
+        },
+        {
+            "Description": "SONY PlaystationConsole  each   %  SCPH-\" Aqua Color \"/ TESTED",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 45.0,
+            "VAT": 45.0,
+            "Gross worth": 49.5
+        },
+        {
+            "Description": "Nintendo Console \"Perfect\" +  each   %  Lot Games \"Games\" ———_ SUMMARY % Total $ $  $",
+            "Qty": 6.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 200.0,
+            "VAT": 200.0,
+            "Gross worth": 220.0
+        }
+    ],
+    "Summary": {
+        "Net worth": 200.0,
+        "VAT": 200.0,
+        "Gross worth": 220.0
+    }
+}

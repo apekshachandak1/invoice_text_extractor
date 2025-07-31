@@ -1,0 +1,60 @@
+{
+    "Invoice Number": "44848471",
+    "Invoice Date": "03/26/2021",
+    "Seller": {
+        "Name": "Proctor, Levy and Willis Roth, Morris and Schultz",
+        "Address": "2297 Jessica Locks Apt. 407 623 Rebekah Causeway",
+        "City_State_Zip": "Jonside, LA 78714 Gregoryport, ND 69850",
+        "Tax ID": "913-71-7249",
+        "IBAN": "GB89NZLM61247862676381"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Proctor, Levy and Willis Roth, Morris and Schultz Jessica Locks Apt. Rebekah Causeway Jonside, LA Gregoryport, ND Tax Id: --Tax Id: --IBAN: GBNZLM———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 44848471.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Adidas Baseball Youth Cleats  each   %  Spikes Kids Shoes Black White Size K",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 11.99,
+            "VAT": 23.98,
+            "Gross worth": 26.38
+        },
+        {
+            "Description": "PUMA RS DREAMER SUPER  each   %  MARIO NINTENDO Little Kids US",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 125.0,
+            "VAT": 625.0,
+            "Gross worth": 687.5
+        },
+        {
+            "Description": "NWT VANS BOYS/YOUTH SK-HI  each   %  MTE SNEAKERS/SHOES SIZE BRAND NEW FOR ! wow! ———=—= SUMMARY",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 24.99,
+            "VAT": 99.96,
+            "Gross worth": 109.96
+        }
+    ],
+    "Summary": {
+        "Net worth": 24.99,
+        "VAT": 99.96,
+        "Gross worth": 109.96
+    }
+}

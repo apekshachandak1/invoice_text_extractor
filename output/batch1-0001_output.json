@@ -1,0 +1,87 @@
+{
+    "Invoice Number": "51109338",
+    "Invoice Date": "04/13/2013",
+    "Seller": {
+        "Name": "Andrews, Kirby and Valdez Becker Ltd",
+        "Address": "58861 Gonzalez Prairie 8012 Stewart Summit Apt. 455",
+        "City_State_Zip": "Lake Daniellefurt, IN 57228 North Douglas, AZ 95355",
+        "Tax ID": "942-80-0517",
+        "IBAN": "GB75MCRL06841367619257"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Andrews, Kirby and Valdez Becker Ltd Gonzalez Prairie Stewart Summit Apt. Lake Daniellefurt, IN North Douglas, AZ Tax Id: --Tax Id: --IBAN: GBMCRL————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 51109338.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "CLEARANCE! Fast Dell Desktop  each   %  Computer PC DUAL CORE WINDOWS //GB RAM",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 209.0,
+            "VAT": 627.0,
+            "Gross worth": 689.7
+        },
+        {
+            "Description": "HP TThin Client Computer  each   %  AMD GX-JC GHz GB RAM TESTED !!READ BELOW!!",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 37.75,
+            "VAT": 188.75,
+            "Gross worth": 207.63
+        },
+        {
+            "Description": "gaming pc desktop computer  each   %  , -Core Gaming Computer  each  %  Desktop PC Tower Affordable GAMING PC GB AMD Vega RGB",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 400.0,
+            "VAT": 400.0,
+            "Gross worth": 440.0
+        },
+        {
+            "Description": "Custom Build Dell Optiplex each  % MT -GHzDesktop Computer PC",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 221.99,
+            "VAT": 109.95,
+            "Gross worth": 220.95
+        },
+        {
+            "Description": "Dell Optiplex MT Computer  each  % PC Quad Core iGHz GB TB HD Windows Pro",
+            "Qty": 6.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 269.95,
+            "VAT": 79.8,
+            "Gross worth": 187.78
+        },
+        {
+            "Description": "Dell Core Duo Desktop  each   %  Computer | Windows XP Pro | GB | GB —o_! SUMMARY VAT [%] Net worth VAT Gross worth % Total $$  $",
+            "Qty": 7.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 168.0,
+            "VAT": 840.0,
+            "Gross worth": 924.0
+        }
+    ],
+    "Summary": {
+        "Net worth": 168.0,
+        "VAT": 840.0,
+        "Gross worth": 924.0
+    }
+}

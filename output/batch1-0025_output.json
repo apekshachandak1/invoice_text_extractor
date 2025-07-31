@@ -1,0 +1,42 @@
+{
+    "Invoice Number": "22083742",
+    "Invoice Date": "03/01/2014",
+    "Seller": {
+        "Name": "Smith, Schaefer and Gonzalez Smith-Petersen",
+        "Address": "Unit 1154 Box 8683 05025 Mary Fall",
+        "City_State_Zip": "DPO AE 34629 Mackside, OR 70036",
+        "Tax ID": "934-70-6847",
+        "IBAN": "GB62IACN00896958403438"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Smith, Schaefer and Gonzalez Smith-Petersen Unit Box Mary Fall DPO AE Mackside, OR Tax Id: --Tax Id: --IBAN: GBIACN———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 22083742.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "YILONG 'x' All over  each % Handmade Carpet Dining Room Hand Knotted Silk Rugs ———I SUMMARY",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 600.0,
+            "VAT": 200.0,
+            "Gross worth": 920.0
+        }
+    ],
+    "Summary": {
+        "Net worth": 600.0,
+        "VAT": 200.0,
+        "Gross worth": 920.0
+    }
+}

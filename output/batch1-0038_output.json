@@ -1,0 +1,96 @@
+{
+    "Invoice Number": "37060863",
+    "Invoice Date": "01/30/2021",
+    "Seller": {
+        "Name": "Floyd-Figueroa Torres and Sons",
+        "Address": "8060 Bass Walks 2696 Trevino Ridges",
+        "City_State_Zip": "Coleshire, OK 97999 South Sara, MT 86708",
+        "Tax ID": "953-87-7430",
+        "IBAN": "GB79IBVF13930075179399"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Floyd-Figueroa Torres and Sons Bass Walks Trevino Ridges Coleshire, OK South Sara, MT Tax Id: --Tax Id: --IBAN: GBIBVF————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 37060863.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "VTech Game Console Bundle-  each   %  Console, Art Studio, Games, Controllers- TESTED!",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 219.99,
+            "VAT": 439.98,
+            "Gross worth": 483.98
+        },
+        {
+            "Description": "NEW Microsoft Xbox Slim  each   %  GB Black Console W/Games And Kinect Bundle +EXTRA",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 275.0,
+            "VAT": 550.0,
+            "Gross worth": 605.0
+        },
+        {
+            "Description": "Retro Arcade Game Console All  each   %  In One G Raspberry Pl Model B GB Plug Play",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 149.99,
+            "VAT": 149.99,
+            "Gross worth": 164.99
+        },
+        {
+            "Description": "BNintendo DSi console Pink  each   %  Japan NDS x",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 9.99,
+            "VAT": 39.96,
+            "Gross worth": 43.96
+        },
+        {
+            "Description": "Nintendo Gameboy Pocket  each   %  Console Clear Purple with Box MGB-Japan Tested",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 85.0,
+            "VAT": 425.0,
+            "Gross worth": 467.5
+        },
+        {
+            "Description": "sega cdx console with original  each   %  power supply (laser info-read description}",
+            "Qty": 6.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 194.0,
+            "VAT": 194.0,
+            "Gross worth": 213.4
+        },
+        {
+            "Description": "Nintendo Wii U WUP-(each   %  GB Console - Black - US Model ———_! SUMMARY VAT [%] Net worth VAT Gross worth % Total $ $  $",
+            "Qty": 7.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 40.0,
+            "VAT": 40.0,
+            "Gross worth": 44.0
+        }
+    ],
+    "Summary": {
+        "Net worth": 40.0,
+        "VAT": 40.0,
+        "Gross worth": 44.0
+    }
+}

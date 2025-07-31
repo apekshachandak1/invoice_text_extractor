@@ -1,0 +1,60 @@
+{
+    "Invoice Number": "74980573",
+    "Invoice Date": "09/27/2015",
+    "Seller": {
+        "Name": "West Group Zimmerman and Sons",
+        "Address": "91959 Eric Pass 2246 Landry Court",
+        "City_State_Zip": "Wileyshire, SC 58295 Murillomouth, AZ 66593",
+        "Tax ID": "901-84-6442",
+        "IBAN": "GBO2HMXX72577746298746"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: West Group Zimmerman and Sons Eric Pass Landry Court Wileyshire, SC Murillomouth, AZ Tax Id: --Tax Id: --IBAN: GBOHMXX————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 74980573.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Teva Hurricane All  each   %  Black Sandals with Hook and Loop Closure, Youth's",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 9.99,
+            "VAT": 19.98,
+            "Gross worth": 21.98
+        },
+        {
+            "Description": "Keen Waterproof Hiking Shoes  each   %  Kids Boys Size Brown Black Outdoor Sneakers",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 35.97,
+            "VAT": 107.91,
+            "Gross worth": 118.7
+        },
+        {
+            "Description": "KushyShoo Children Kid Rain  each   %  Boot Shoes Rubber, Monkey, Size Youth oot SUMMARY",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 22.99,
+            "VAT": 45.98,
+            "Gross worth": 50.58
+        }
+    ],
+    "Summary": {
+        "Net worth": 22.99,
+        "VAT": 45.98,
+        "Gross worth": 50.58
+    }
+}

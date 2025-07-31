@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "37877758",
+    "Invoice Date": "07/02/2014",
+    "Seller": {
+        "Name": "Holmes-Whitney Jordan, Jones and Rodriguez",
+        "Address": "PSC 4815, Box 7683 372 John Tunnel",
+        "City_State_Zip": "APO AE 56344 Patelport, SC 86533",
+        "Tax ID": "953-92-4049",
+        "IBAN": "GB81XDRW19367191324873"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Holmes-Whitney Jordan, Jones and Rodriguez PSC , Box John Tunnel APO AE Patelport, SC Tax Id: --Tax Id: --IBAN: GBXDRW————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 37877758.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "\"x\" White Marble Coffee  each  % Top Table Lapis Inlay Pietradura Floral Art Decor",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 396.55,
+            "VAT": 586.2,
+            "Gross worth": 744.82
+        },
+        {
+            "Description": "°x\" Top Marble White Table  each % Carnelian Marquetry Interior Thanksgiving Gift",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 0.0,
+            "VAT": 0.0,
+            "Gross worth": 0.0
+        },
+        {
+            "Description": "°x\" Marble Black Top  each % Coffee Table Inlaid Floral Art Christmas Gift Home Deco",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 150.0,
+            "VAT": 450.0,
+            "Gross worth": 795.0
+        },
+        {
+            "Description": "Inches Marble Coffee Table  each % Top Inlay with Yellow Stone Art Dinette Table Top",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 400.0,
+            "VAT": 400.0,
+            "Gross worth": 740.0
+        },
+        {
+            "Description": "'x' Blue Random Marble  each % Dining Hallway Table Top Lapis Lazuli Inlay Decor EA =——— SUMMARY % Total $ $ $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 194.09,
+            "VAT": 582.27,
+            "Gross worth": 40.5
+        }
+    ],
+    "Summary": {
+        "Net worth": 194.09,
+        "VAT": 582.27,
+        "Gross worth": 40.5
+    }
+}

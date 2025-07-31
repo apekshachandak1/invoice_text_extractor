@@ -1,0 +1,60 @@
+{
+    "Invoice Number": "57986024",
+    "Invoice Date": "10/17/2015",
+    "Seller": {
+        "Name": "Schmidt LLC Allen PLC",
+        "Address": "5107 Christina Orchard Apt. 670 157 Michaela Station",
+        "City_State_Zip": "West Conniemouth, MD 43698 Mariafort, IL 29394",
+        "Tax ID": "907-74-8078",
+        "IBAN": "GBO2QDFL22211399552517"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Schmidt LLC Allen PLC Christina Orchard Apt. Michaela Station West Conniemouth, MD Mariafort, IL Tax Id: --Tax Id: --IBAN: GBOQDFL————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 57986024.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Straw Dogs : Thoughts on  each   %  Humans and Other Animals, Paperback by Gray, John, L...",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 13.99,
+            "VAT": 69.95,
+            "Gross worth": 76.95
+        },
+        {
+            "Description": "In the Footsteps of the Russian  each   %  Snowman (Paperback or Softback)",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 25.87,
+            "VAT": 103.48,
+            "Gross worth": 113.83
+        },
+        {
+            "Description": "Steam Yacht Varuna, Brand  each   %  New, Free shipping in the US ——— SUMMARY",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 8.45,
+            "VAT": 8.45,
+            "Gross worth": 9.29
+        }
+    ],
+    "Summary": {
+        "Net worth": 8.45,
+        "VAT": 8.45,
+        "Gross worth": 9.29
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "Invoice Number": "13407985",
+    "Invoice Date": "11/22/2013",
+    "Seller": {
+        "Name": "Nicholson, Miller and Webster Mccormick and Sons",
+        "Address": "USS Lee 22688 Ortiz Plaza",
+        "City_State_Zip": "FPO AE 74393 Meganfort, WA 91964",
+        "Tax ID": "997-95-5690",
+        "IBAN": "GB23TMKM50357047352524"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Nicholson, Miller and Webster Mccormick and Sons USS Lee Ortiz Plaza FPO AE Meganfort, WA Tax Id: --Tax Id: --IBAN: GBTMKM————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 13407985.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Adult Kids Pokemon Pikachu  each   %  Kigurumi Pajama Cosplay Christmas Costume Sleepwear",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 9.95,
+            "VAT": 49.75,
+            "Gross worth": 54.73
+        },
+        {
+            "Description": "Vintage s Sostanza Plus Size  each   %  Dress W Floral Cottagecore",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 49.96,
+            "VAT": 149.88,
+            "Gross worth": 164.87
+        },
+        {
+            "Description": "balmain dress each %",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 550.0,
+            "VAT": 650.0,
+            "Gross worth": 115.0
+        },
+        {
+            "Description": "Lilly Pulitzer Sunkissed with  each   %  Glow Janice Shift Dress ooo’ SUMMARY VAT [%] Net worth VAT Gross worth % Total $ $  $",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 56.89,
+            "VAT": 113.78,
+            "Gross worth": 125.16
+        }
+    ],
+    "Summary": {
+        "Net worth": 56.89,
+        "VAT": 113.78,
+        "Gross worth": 125.16
+    }
+}

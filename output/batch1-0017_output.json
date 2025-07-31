@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "98858130",
+    "Invoice Date": "01/28/2021",
+    "Seller": {
+        "Name": "Dominguez, Jackson and Steele Rodriguez, Hall and Tanner",
+        "Address": "98309 Stephanie Stream PSC 6611, Box 2668",
+        "City_State_Zip": "Michaelbury, R! 57219 APO AP 07491",
+        "Tax ID": "941-88-5692",
+        "IBAN": "GB210JGQ49248059733020"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Dominguez, Jackson and Steele Rodriguez, Hall and Tanner Stephanie Stream PSC , Box Michaelbury, R! APO AP Tax Id: --Tax Id: --IBAN: GBJGQ————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 98858130.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Wine Glasses Set Of each   %",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 6.0,
+            "VAT": 12.0,
+            "Gross worth": 13.2
+        },
+        {
+            "Description": "Uncork New York rolling  each   %  vineryards Wine glass set of",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 5.99,
+            "VAT": 29.95,
+            "Gross worth": 32.95
+        },
+        {
+            "Description": "Anthropologie Gold Elegant  each   %  Swan Decorative Metal Bottle Stopper Wine Saver",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 19.98,
+            "VAT": 19.98,
+            "Gross worth": 21.98
+        },
+        {
+            "Description": "Moonshine Still BGal/L Water  each   %  Alcohol Distiller Home Brew Wine Making Kit Pot",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 89.99,
+            "VAT": 269.97,
+            "Gross worth": 296.97
+        },
+        {
+            "Description": "Tupperware Wine Stemless  each   %  Cups Set Acrylic Plastic Shatter Proof Beverages New ———_! SUMMARY %    Total $  $  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 34.99,
+            "VAT": 69.98,
+            "Gross worth": 76.98
+        }
+    ],
+    "Summary": {
+        "Net worth": 34.99,
+        "VAT": 69.98,
+        "Gross worth": 76.98
+    }
+}

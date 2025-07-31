@@ -1,0 +1,87 @@
+{
+    "Invoice Number": "36187296",
+    "Invoice Date": "01/05/2017",
+    "Seller": {
+        "Name": "Lopez, Murray and Johnston White Ltd",
+        "Address": "62820 White Glen 58435 Kline Wall",
+        "City_State_Zip": "Emilyshire, IN 44602 Port Stacey, NM 41817",
+        "Tax ID": "966-84-8472",
+        "IBAN": "GB480UAZ93098629612648"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Lopez, Murray and Johnston White Ltd White Glen Kline Wall Emilyshire, IN Port Stacey, NM Tax Id: --Tax Id: --IBAN: GBUAZ————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 36187296.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Nike Kids KD Trey S / Nike Black  each   %  Size aY",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 22.0,
+            "VAT": 110.0,
+            "Gross worth": 121.0
+        },
+        {
+            "Description": "Lego Star Wars Minifigures  each   %  Stormtrooper Darth Vader Yoda Obi Van Mandalorian New",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 2.98,
+            "VAT": 2.98,
+            "Gross worth": 3.28
+        },
+        {
+            "Description": "Nike Air Jordan Mid Obsidian  each   %  -Toddler Kids Children Size C Blue",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 24.99,
+            "VAT": 124.95,
+            "Gross worth": 137.44
+        },
+        {
+            "Description": "Oomphies Boys Ankle Boots  each   %  Shoes Gray Green Kids Size EUC",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 11.99,
+            "VAT": 47.96,
+            "Gross worth": 52.76
+        },
+        {
+            "Description": "Jordan Retro Fusion Red Size  each   %  Y",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 60.0,
+            "VAT": 180.0,
+            "Gross worth": 198.0
+        },
+        {
+            "Description": "Jordan Hydro (TD)-Child Size  each   %  ¢ ———_ SUMMARY %",
+            "Qty": 6.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 5.75,
+            "VAT": 5.75,
+            "Gross worth": 6.33
+        }
+    ],
+    "Summary": {
+        "Net worth": 5.75,
+        "VAT": 5.75,
+        "Gross worth": 6.33
+    }
+}

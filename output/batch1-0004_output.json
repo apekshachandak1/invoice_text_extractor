@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "16273983",
+    "Invoice Date": "04/01/2017",
+    "Seller": {
+        "Name": "Reyes, Holloway and Lee Castillo LLC",
+        "Address": "38676 Johnson Burg Suite 666 70391 Kelsey Terrace",
+        "City_State_Zip": "West Rebeccamouth, SD 02588 Garcialand, VT 41740",
+        "Tax ID": "901-88-0463",
+        "IBAN": "GB96VWUL5 2026848004193"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Reyes, Holloway and Lee Castillo LLC Johnson Burg Suite Kelsey Terrace West Rebeccamouth, SD Garcialand, VT Tax Id: --Tax Id: --IBAN: GBVWUL————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 16273983.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Handmade Thick round warm  each   %  crochet Rug Carpet Mat % acrylic % me Floor Decor",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 44.99,
+            "VAT": 179.96,
+            "Gross worth": 197.96
+        },
+        {
+            "Description": "Rug White Moroccan Beni  each   %  Ourain Trellis Shag Area Rug Authentic Handmade Carpet",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 245.0,
+            "VAT": 490.0,
+            "Gross worth": 539.0
+        },
+        {
+            "Description": "Abstract Living Room Carpet  each   %  Home Decor Nordic Style Bedside Area Rug Floor Mats",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 24.01,
+            "VAT": 24.01,
+            "Gross worth": 26.41
+        },
+        {
+            "Description": "Leopard Printed Rug Skin Mat  each   %  Leather Faux Fur Animals Area Rugs Home Carpets",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 19.49,
+            "VAT": 19.49,
+            "Gross worth": 21.44
+        },
+        {
+            "Description": "pc Exquisite Durable Foot  each   %  Cloth Christmas Carpet Xmas Cushion for Kitchen ——— SUMMARY %    Total $  $  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 15.57,
+            "VAT": 31.14,
+            "Gross worth": 34.25
+        }
+    ],
+    "Summary": {
+        "Net worth": 15.57,
+        "VAT": 31.14,
+        "Gross worth": 34.25
+    }
+}

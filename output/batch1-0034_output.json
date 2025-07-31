@@ -1,0 +1,51 @@
+{
+    "Invoice Number": "60456703",
+    "Invoice Date": "09/01/2016",
+    "Seller": {
+        "Name": "Hines Ltd Brown Ltd",
+        "Address": "88927 Martin Brooks Suite 941 Unit 8049 Box 4906",
+        "City_State_Zip": "Angelastad, WI 16514 DPO AE 32839",
+        "Tax ID": "991-84-7712",
+        "IBAN": "GBOSIPNV34325216718258"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Hines Ltd Brown Ltd Martin Brooks Suite Unit Box Angelastad, WI DPO AE Tax Id: --Tax Id: --IBAN: GBOSIPNV———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 60456703.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Nintendo Gameboy Color  each   %  Console Clear with Box Manual CGB-GBC Japan Tested",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 120.0,
+            "VAT": 120.0,
+            "Gross worth": 132.0
+        },
+        {
+            "Description": "Sony PlayStation GB  each   %  Charcoal Black Console (Used) ———I SUMMARY",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 109.99,
+            "VAT": 219.98,
+            "Gross worth": 241.98
+        }
+    ],
+    "Summary": {
+        "Net worth": 109.99,
+        "VAT": 219.98,
+        "Gross worth": 241.98
+    }
+}

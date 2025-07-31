@@ -1,0 +1,42 @@
+{
+    "Invoice Number": "20434959",
+    "Invoice Date": "12/20/2011",
+    "Seller": {
+        "Name": "Garrett, Gonzales and Hurley Holloway, Stanton and Dunn",
+        "Address": "683 Savannah Fords Apt. 092 49479 James Canyon Apt. 672",
+        "City_State_Zip": "West Jamesport, CT 37732 Port Stephaniehaven, AK 61071",
+        "Tax ID": "940-95-1310",
+        "IBAN": "GB35IHYS72111215388563"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Garrett, Gonzales and Hurley Holloway, Stanton and Dunn Savannah Fords Apt. James Canyon Apt. West Jamesport, CT Port Stephaniehaven, AK Tax Id: --Tax Id: --IBAN: GBIHYS———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 20434959.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Wine Things Unlimited - Tipsy  each   %  Wine Elf - Pewter Wine Bottle Stopper/Cork ———I SUMMARY",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 8.99,
+            "VAT": 26.97,
+            "Gross worth": 29.67
+        }
+    ],
+    "Summary": {
+        "Net worth": 8.99,
+        "VAT": 26.97,
+        "Gross worth": 29.67
+    }
+}

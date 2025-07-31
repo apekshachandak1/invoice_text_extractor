@@ -1,0 +1,69 @@
+{
+    "Invoice Number": "94786467",
+    "Invoice Date": "11/19/2013",
+    "Seller": {
+        "Name": "Campbell-Thomas Gordon PLC",
+        "Address": "271 Christopher Causeway Suite 074 77704 Casey Junction Suite 173",
+        "City_State_Zip": "Andersonview, TN 18773 South Jacquelinefort, OK 29297",
+        "Tax ID": "919-88-4424",
+        "IBAN": "GB18QZIH77960348255932"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Campbell-Thomas Gordon PLC Christopher Causeway Suite Casey Junction Suite Andersonview, TN South Jacquelinefort, OK Tax Id: --Tax Id: --IBAN: GBQZIH———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 94786467.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Inches Marble Office Table  each % Top with Multi Gemstones Work Dinning Table Top",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 683.75,
+            "VAT": 683.75,
+            "Gross worth": 852.13
+        },
+        {
+            "Description": "Inches Black Marble Center  each  % Table Top with Multi Stones Coffee Table for Home.",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 731.25,
+            "VAT": 462.5,
+            "Gross worth": 608.75
+        },
+        {
+            "Description": "SOFA SET  each  % , Inches Marble Bed Side Table  each   % Top Stone Coffee Table with Royal Inlay Work",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 250.0,
+            "VAT": 0.0,
+            "Gross worth": 100.0
+        },
+        {
+            "Description": "\"x\" Black Marble Round  each % Top Table Grapes Art Inlay Floral Christmas Gift Deco ——=a SUMMARY % Total $$  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 288.0,
+            "VAT": 576.0,
+            "Gross worth": 833.6
+        }
+    ],
+    "Summary": {
+        "Net worth": 288.0,
+        "VAT": 576.0,
+        "Gross worth": 833.6
+    }
+}

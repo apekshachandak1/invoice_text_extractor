@@ -1,0 +1,42 @@
+{
+    "Invoice Number": "81978187",
+    "Invoice Date": "01/17/2013",
+    "Seller": {
+        "Name": "Padilla-Miller Johnson Ltd",
+        "Address": "53017 Lopez Locks 86731 Ryan Throughway Suite 743",
+        "City_State_Zip": "Alecborough, OH 49620 West Jason, CT 15849",
+        "Tax ID": "922-87-4664",
+        "IBAN": "GB91VPMR74805066714957"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Padilla-Miller Johnson Ltd Lopez Locks Ryan Throughway Suite Alecborough, OH West Jason, CT Tax Id: --Tax Id: --IBAN: GBVPMR———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 81978187.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Cuisinart Stainless Steel Electric  each   %  Wine Opener - CWO-- Brand New in the Box ———_ SUMMARY",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 19.9,
+            "VAT": 59.7,
+            "Gross worth": 65.67
+        }
+    ],
+    "Summary": {
+        "Net worth": 19.9,
+        "VAT": 59.7,
+        "Gross worth": 65.67
+    }
+}

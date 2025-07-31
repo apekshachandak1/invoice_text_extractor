@@ -1,0 +1,60 @@
+{
+    "Invoice Number": "10942693",
+    "Invoice Date": "06/13/2018",
+    "Seller": {
+        "Name": "Coleman Inc Lopez-Garcia",
+        "Address": "706 Brady Fork 413 Snow Extensions",
+        "City_State_Zip": "West Paulfort, NY 06654 West Michealfort, ME 41012",
+        "Tax ID": "947-74-2259",
+        "IBAN": "GB76CSSR03453199859434"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Coleman Inc Lopez-Garcia Brady Fork Snow Extensions West Paulfort, NY West Michealfort, ME Tax Id: --Tax Id: --IBAN: GBCSSR————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 10942693.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Yilong 'x' Traditional  each % Handmade Silk Area Rugs Kid Friendly Floor Carpet B",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 200.0,
+            "VAT": 200.0,
+            "Gross worth": 320.0
+        },
+        {
+            "Description": "YILONG 'x' All over  each % Handmade Carpet Dining Room Hand Knotted Silk Rugs B",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 600.0,
+            "VAT": 0.0,
+            "Gross worth": 800.0
+        },
+        {
+            "Description": "Watercolor Butterfly Carpets  each   %  Kitchen Rug Anti Slip Mat Art Living Room Carpets oot SUMMARY VAT [%] Net worth VAT Gross worth % Total $$ $",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 14.39,
+            "VAT": 28.78,
+            "Gross worth": 31.66
+        }
+    ],
+    "Summary": {
+        "Net worth": 14.39,
+        "VAT": 28.78,
+        "Gross worth": 31.66
+    }
+}

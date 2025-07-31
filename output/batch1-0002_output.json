@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "12847181",
+    "Invoice Date": "03/03/2012",
+    "Seller": {
+        "Name": "Fitzpatrick and Sons Duncan PLC",
+        "Address": "00480 Cook Cove Unit 8799 Box 0703",
+        "City_State_Zip": "Spencerport, UT 12036 DPO AP 81970",
+        "Tax ID": "911-82-7132",
+        "IBAN": "GB92PBPQ73499358975916"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Fitzpatrick and Sons Duncan PLC Cook Cove Unit Box Spencerport, UT DPO AP Tax Id: --Tax Id: --IBAN: GBPBPQ————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 12847181.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "HP Desktop Computer PC each   %  Core iS GB TB HD GB $SD \" LCD Q Windows",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 139.95,
+            "VAT": 559.8,
+            "Gross worth": 615.78
+        },
+        {
+            "Description": "CUSTOM BUILT AMD RYZEN  = each % THREADRIPPER GAMING COMPUTER , GB RAM,",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 400.0,
+            "VAT": 200.0,
+            "Gross worth": 620.0
+        },
+        {
+            "Description": "Fast Dell Optiplex Desktop PC  each   %  Computer Dual Core Ghz GB TB Win Pro WIFI",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 217.0,
+            "VAT": 217.0,
+            "Gross worth": 238.7
+        },
+        {
+            "Description": "Dell Optiplex Computer ieach   %  @  Ghz Quad Core GB GB Working",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 159.99,
+            "VAT": 479.97,
+            "Gross worth": 527.97
+        },
+        {
+            "Description": "Vintage Microsolutions Pentium  each   %  mhz Desktop Tower PC Windows Floppy ——— SUMMARY % Total $ $  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 390.0,
+            "VAT": 780.0,
+            "Gross worth": 858.0
+        }
+    ],
+    "Summary": {
+        "Net worth": 780.0,
+        "VAT": 858.0,
+        "Gross worth": 5.25
+    }
+}

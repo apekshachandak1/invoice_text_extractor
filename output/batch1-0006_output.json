@@ -1,0 +1,69 @@
+{
+    "Invoice Number": "72128555",
+    "Invoice Date": "12/25/2013",
+    "Seller": {
+        "Name": "Obrien Group Duncan-Davis",
+        "Address": "6217 Boyd Ville Apt. 758 PSC 2324, Box 6632",
+        "City_State_Zip": "Robbinsberg, AZ 54997 APO AP 93827",
+        "Tax ID": "917-86-7656",
+        "IBAN": "GB71QMAA96406297569205"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Obrien Group Duncan-Davis Boyd Ville Apt. PSC , Box Robbinsberg, AZ APO AP Tax Id: --Tax Id: --IBAN: GBQMAA————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 72128555.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Fatawa Islamiyah (Islamic  each   %  Verdicts) (Volume Set)",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 99.9,
+            "VAT": 199.8,
+            "Gross worth": 219.78
+        },
+        {
+            "Description": "Sasinowski M-Legacy Of Ra  each   %  BOOK NEW",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 19.4,
+            "VAT": 19.4,
+            "Gross worth": 21.34
+        },
+        {
+            "Description": "Time Life Books: The Old West  each   %  Series ~ Complete Volumes + Master Index mn",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 139.95,
+            "VAT": 419.85,
+            "Gross worth": 461.83
+        },
+        {
+            "Description": "How to Win Friends & Influence  each   %  People ——— SUMMARY",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 2.0,
+            "Net worth": 6.62,
+            "VAT": 13.24,
+            "Gross worth": 14.56
+        }
+    ],
+    "Summary": {
+        "Net worth": 6.62,
+        "VAT": 13.24,
+        "Gross worth": 14.56
+    }
+}

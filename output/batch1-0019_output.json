@@ -1,0 +1,60 @@
+{
+    "Invoice Number": "56908352",
+    "Invoice Date": "01/11/2015",
+    "Seller": {
+        "Name": "Lozano, Wang and Smith Evans, Curtis and Salinas",
+        "Address": "8162 Dunn Radial 13078 Mora Garden",
+        "City_State_Zip": "Lauraland, ID 83827 Morseberg, WV 48959",
+        "Tax ID": "904-76-9217",
+        "IBAN": "GB68RRBM34982962207975"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Lozano, Wang and Smith Evans, Curtis and Salinas Dunn Radial Mora Garden Lauraland, ID Morseberg, WV Tax Id: --Tax Id: --IBAN: GBRRBM————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 56908352.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Rage By Bob Woodward -  each   %  Donald Trump NEW HARDCOVER Sept",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 22.93,
+            "VAT": 114.65,
+            "Gross worth": 126.12
+        },
+        {
+            "Description": "Spectacular Ireland Coffee  each   %  Table Book - very large",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 10.0,
+            "VAT": 40.0,
+            "Gross worth": 44.0
+        },
+        {
+            "Description": "The Complete Life's Little  each   %  Instruction Book by Brown, H. Jackson, Jr. ———_ SUMMARY",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 4.09,
+            "VAT": 16.36,
+            "Gross worth": 18.0
+        }
+    ],
+    "Summary": {
+        "Net worth": 4.09,
+        "VAT": 16.36,
+        "Gross worth": 18.0
+    }
+}

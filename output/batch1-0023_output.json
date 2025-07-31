@@ -1,0 +1,51 @@
+{
+    "Invoice Number": "33102457",
+    "Invoice Date": "09/18/2018",
+    "Seller": {
+        "Name": "Harris LLC Pierce, Bush and Jones",
+        "Address": "19049 Norma Centers Apt. 108 Unit 0758 Box 0909",
+        "City_State_Zip": "Fieldsmouth, AZ 08845 DPO AA 34990",
+        "Tax ID": "974-83-3645",
+        "IBAN": "GB42MQKW89908599665710"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Harris LLC Pierce, Bush and Jones Norma Centers Apt. Unit Box Fieldsmouth, AZ DPO AA Tax Id: --Tax Id: --IBAN: GBMQKW————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 33102457.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Blue Shiny Stone Floral Art  each % Dinning Table Top Marble Kitchen Table Top Inches",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 960.0,
+            "VAT": 840.0,
+            "Gross worth": 424.0
+        },
+        {
+            "Description": "\" Marble Side Coffee Table  each   %  Top Multi Stone Floral Inlay Occasional Decor W———_ SUMMARY",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 259.77,
+            "VAT": 779.31,
+            "Gross worth": 857.24
+        }
+    ],
+    "Summary": {
+        "Net worth": 259.77,
+        "VAT": 779.31,
+        "Gross worth": 857.24
+    }
+}

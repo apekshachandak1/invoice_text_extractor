@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "32830026",
+    "Invoice Date": "12/20/2014",
+    "Seller": {
+        "Name": "George, Casey and Harris Stewart, Fields and Scott",
+        "Address": "0943 Justin Branch Apt. 233 07095 Robert Cape",
+        "City_State_Zip": "Ingramberg, DE 59102 Marquezburgh, DC 81706",
+        "Tax ID": "995-83-6792",
+        "IBAN": "GB810UZN44807763808287"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: George, Casey and Harris Stewart, Fields and Scott Justin Branch Apt. Robert Cape Ingramberg, DE Marquezburgh, DC Tax Id: --Tax Id: --IBAN: GBUZN————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 32830026.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "SONY PlaystationConsole  each   %  SCPH-“ Peal Color\" / TESTED",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 45.0,
+            "VAT": 225.0,
+            "Gross worth": 247.5
+        },
+        {
+            "Description": "Nintendo Switch Lite Gray  each   %  CONSOLE ONLY - No Accessories or Charger (B-]",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 135.0,
+            "VAT": 135.0,
+            "Gross worth": 148.5
+        },
+        {
+            "Description": "Nintendo Wii Console RVL-each   %  Complete Hookups W/ Mario&Sonic; Tested / Working",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 78.88,
+            "VAT": 236.64,
+            "Gross worth": 260.3
+        },
+        {
+            "Description": "BNintendo new DS console  each   %  White Japan w/stylus pen",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 4.0,
+            "Net worth": 79.99,
+            "VAT": 319.96,
+            "Gross worth": 351.96
+        },
+        {
+            "Description": "Sega Saturn Console Gray  each   %  HST-HST-Japanese ——=a SUMMARY % Total $ $  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 119.98,
+            "VAT": 119.98,
+            "Gross worth": 131.98
+        }
+    ],
+    "Summary": {
+        "Net worth": 119.98,
+        "VAT": 119.98,
+        "Gross worth": 131.98
+    }
+}

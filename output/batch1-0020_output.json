@@ -1,0 +1,78 @@
+{
+    "Invoice Number": "15001300",
+    "Invoice Date": "02/18/2014",
+    "Seller": {
+        "Name": "Kerr, Ryan and Gomez Mason Ltd",
+        "Address": "8069 Nicholas Greens 8053 Friedman Burg",
+        "City_State_Zip": "Lake Vincentbury, RI 06574 Patrickfort, FL 71567",
+        "Tax ID": "991-91-7229",
+        "IBAN": "GB32MKCO74382010852522"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //==! Seller: Client: Kerr, Ryan and Gomez Mason Ltd Nicholas Greens Friedman Burg Lake Vincentbury, RI Patrickfort, FL Tax Id: --Tax Id: --IBAN: GBMKCO————_ ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 15001300.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Pcs Wall Stickers Home  each   %  Decor Glow In The Dark Star sticker Decal Kids room",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 1.7,
+            "VAT": 1.7,
+            "Gross worth": 1.87
+        },
+        {
+            "Description": "PUMA Boys Kids Athletic Shoes  each   %  Flats Plimsouls Gray Black Denim size C",
+            "Qty": 2.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 19.0,
+            "VAT": 57.0,
+            "Gross worth": 62.7
+        },
+        {
+            "Description": "Joma Youth Boys Gol Piso  each   %  Multitaco Soccer Cleats White Blue Yellow NEW",
+            "Qty": 3.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 19.99,
+            "VAT": 99.95,
+            "Gross worth": 109.94
+        },
+        {
+            "Description": "Fila Boys Skele-Toes Bay RNR each   %  Black Running Shoes Medium (D) Little Kid",
+            "Qty": 4.0,
+            "Unit": "each",
+            "Net price": 3.0,
+            "Net worth": 10.25,
+            "VAT": 30.75,
+            "Gross worth": 33.83
+        },
+        {
+            "Description": "Kid Connection Kids Winter  each   %  Waterproof Boots Size § Cozy & Warm Slipn On Booties ——— SUMMARY %    Total $  $  $",
+            "Qty": 5.0,
+            "Unit": "each",
+            "Net price": 5.0,
+            "Net worth": 21.59,
+            "VAT": 107.95,
+            "Gross worth": 118.75
+        }
+    ],
+    "Summary": {
+        "Net worth": 21.59,
+        "VAT": 107.95,
+        "Gross worth": 118.75
+    }
+}

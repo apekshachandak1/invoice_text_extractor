@@ -1,0 +1,42 @@
+{
+    "Invoice Number": "77596491",
+    "Invoice Date": "01/31/2021",
+    "Seller": {
+        "Name": "Tran, Hurst and Rodgers Stephenson Inc",
+        "Address": "Unit 2493 Box 1389 716 Wright Flat Apt. 385",
+        "City_State_Zip": "DPO AP 75814 South Carrie, GA 17790",
+        "Tax ID": "926-85-5660",
+        "IBAN": "GBO04ZWCK22425880230961"
+    },
+    "Client": {
+        "Name": "",
+        "Address": "",
+        "City_State_Zip": "",
+        "Tax ID": ""
+    },
+    "Line Items": [
+        {
+            "Description": "Invoice no: Date of issue: //=———Seller: Client: Tran, Hurst and Rodgers Stephenson Inc Unit Box Wright Flat Apt. DPO AP South Carrie, GA Tax Id: --Tax Id: --IBAN: GBOZWCK———_—t ITEMS No. Description Qty UM Net price Net worth VAT [%] Gross worth",
+            "Qty": 77596491.0,
+            "Unit": "each",
+            "Net price": null,
+            "Net worth": null,
+            "VAT": null,
+            "Gross worth": null
+        },
+        {
+            "Description": "Earl Scruggs and the -String  each   %  Banjo: Revised and Enhanced Edition (Paperback or ———I SUMMARY",
+            "Qty": 1.0,
+            "Unit": "each",
+            "Net price": 1.0,
+            "Net worth": 22.68,
+            "VAT": 22.68,
+            "Gross worth": 24.95
+        }
+    ],
+    "Summary": {
+        "Net worth": 22.68,
+        "VAT": 22.68,
+        "Gross worth": 24.95
+    }
+}
