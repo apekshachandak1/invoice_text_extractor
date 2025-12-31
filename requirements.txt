@@ -1,6 +1,8 @@
-pytesseract
 opencv-python
 pillow
 numpy
 tqdm
 streamlit
+easyocr
+torch
+torchvision
