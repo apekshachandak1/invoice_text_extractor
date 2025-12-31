@@ -1,19 +1,29 @@
-import os
+import streamlit as st
 import cv2
 import json
 import re
-import concurrent.futures
-from tqdm import tqdm
 import easyocr
+import numpy as np
+from PIL import Image
 
-# Initialize EasyOCR reader (CPU only – works on Render)
-reader = easyocr.Reader(['en'], gpu=False)
+# ----------------- STREAMLIT CONFIG -----------------
+st.set_page_config(
+    page_title="Invoice Text Extractor",
+    layout="centered"
+)
 
-# 🧹 Preprocess image for better OCR
-def preprocess_image(image_path):
-    img = cv2.imread(image_path)
-    if img is None:
-        return None
+st.title("🧾 Invoice Text Extractor")
+st.write("Upload an invoice image to extract structured data")
+
+# ----------------- OCR INIT -----------------
+@st.cache_resource
+def load_reader():
+    return easyocr.Reader(['en'], gpu=False)
+
+reader = load_reader()
+
+# ----------------- IMAGE PREPROCESS -----------------
+def preprocess_image(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray = cv2.medianBlur(gray, 3)
     processed = cv2.adaptiveThreshold(
@@ -24,14 +34,11 @@ def preprocess_image(image_path):
     )
     return processed
 
-# 🔍 Extract data from a single image
-def extract_invoice_data(image_path):
-    image = preprocess_image(image_path)
-    if image is None:
-        return None
+# ----------------- INVOICE EXTRACTION -----------------
+def extract_invoice_data(img):
+    processed = preprocess_image(img)
 
-    # EasyOCR text extraction
-    ocr_result = reader.readtext(image)
+    ocr_result = reader.readtext(processed)
     lines = [res[1].strip() for res in ocr_result if res[1].strip()]
 
     invoice_data = {
@@ -40,15 +47,15 @@ def extract_invoice_data(image_path):
         "Line Items": []
     }
 
-    # 🔢 Extract Invoice Number
+    # Invoice Number
     for line in lines:
-        if "invoice" in line.lower() and any(char.isdigit() for char in line):
+        if "invoice" in line.lower() and any(c.isdigit() for c in line):
             digits = ''.join(filter(str.isdigit, line))
             if len(digits) >= 6:
                 invoice_data["Invoice Number"] = digits
                 break
 
-    # 📅 Extract Invoice Date
+    # Invoice Date
     date_patterns = [
         r"\d{1,2}[/-]\d{1,2}[/-]\d{2,4}",
         r"\d{4}[/-]\d{1,2}[/-]\d{1,2}"
@@ -63,7 +70,7 @@ def extract_invoice_data(image_path):
         if invoice_data["Invoice Date"] != "Not Found":
             break
 
-    # 📦 Group line items
+    # Group line items
     structured_items = []
     item_block = ""
 
@@ -78,7 +85,7 @@ def extract_invoice_data(image_path):
     if item_block:
         structured_items.append(item_block.strip())
 
-    # 🧾 Parse line items
+    # Parse line items
     parsed_items = []
 
     for item in structured_items:
@@ -92,18 +99,14 @@ def extract_invoice_data(image_path):
             "Gross worth": None
         }
 
-        # Qty & Unit
-        qty_unit_match = re.search(
-            r"(\d{1,4}[.,]?\d*)\s*(each|pcs|box|unit|pack)?",
-            item, re.IGNORECASE
-        )
-        if qty_unit_match:
-            qty_text = qty_unit_match.group(1).replace(",", ".")
+        # Quantity
+        qty_match = re.search(r"(\d{1,4}[.,]?\d*)\s*(each|pcs|box|unit|pack)?", item, re.I)
+        if qty_match:
             try:
-                parsed["Qty"] = float(qty_text)
+                parsed["Qty"] = float(qty_match.group(1).replace(",", "."))
+                parsed["Unit"] = qty_match.group(2) or "each"
             except:
                 pass
-            parsed["Unit"] = qty_unit_match.group(2) or "each"
 
         # Prices
         prices = re.findall(r"(\d{1,5}[.,]\d{2})", item)
@@ -118,50 +121,38 @@ def extract_invoice_data(image_path):
 
         # Description
         desc = re.sub(r"(\d{1,5}[.,]\d{2})", "", item)
-        desc = re.sub(r"\d{1,2}[\.\)]?\s*", "", desc)
+        desc = re.sub(r"^\d{1,2}[\.\)]?\s*", "", desc)
         parsed["Description"] = desc.strip()
 
         parsed_items.append(parsed)
 
     invoice_data["Line Items"] = parsed_items
-    return invoice_data
+    return invoice_data, lines
 
-# 💾 Save JSON output
-def process_image(image_path, output_dir):
-    try:
-        data = extract_invoice_data(image_path)
-        if data:
-            file_name = os.path.basename(image_path).rsplit(".", 1)[0]
-            output_path = os.path.join(output_dir, file_name + "_output.json")
-            with open(output_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=4, ensure_ascii=False)
-            return f"✅ Saved: {output_path}"
-    except Exception as e:
-        return f"❌ Error: {image_path} -> {e}"
-    return None
+# ----------------- STREAMLIT UI -----------------
+uploaded_file = st.file_uploader(
+    "Upload Invoice Image",
+    type=["jpg", "jpeg", "png"]
+)
 
-# 📂 Batch processing
-def process_all_images(folder_path, output_dir="outputs", max_workers=4):
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+if uploaded_file:
+    image = Image.open(uploaded_file)
+    img_array = np.array(image)
 
-    image_files = []
-    for root, _, files in os.walk(folder_path):
-        for file in files:
-            if file.lower().endswith((".jpg", ".jpeg", ".png")):
-                image_files.append(os.path.join(root, file))
+    st.image(image, caption="Uploaded Invoice", use_column_width=True)
 
-    print(f"🔍 Total images found: {len(image_files)}\n")
+    with st.spinner("Extracting invoice data..."):
+        invoice_data, raw_lines = extract_invoice_data(img_array)
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        for result in tqdm(
-            executor.map(lambda img: process_image(img, output_dir), image_files),
-            total=len(image_files)
-        ):
-            if result:
-                print(result)
+    st.subheader("📄 Extracted Text")
+    st.text_area("", "\n".join(raw_lines), height=200)
 
-# ▶️ Main
-if __name__ == "__main__":
-    folder_to_scan = "data/batch_1"
-    process_all_images(folder_to_scan)
+    st.subheader("📦 Structured Invoice Data")
+    st.json(invoice_data)
+
+    st.download_button(
+        "⬇️ Download JSON",
+        data=json.dumps(invoice_data, indent=4),
+        file_name="invoice_data.json",
+        mime="application/json"
+    )
