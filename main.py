@@ -1,8 +1,6 @@
 import streamlit as st
-import cv2
 import json
 import re
-import easyocr
 import numpy as np
 from PIL import Image
 
@@ -13,17 +11,19 @@ st.set_page_config(
 )
 
 st.title("🧾 Invoice Text Extractor")
-st.write("Upload an invoice image to extract structured data")
+st.write("Upload an invoice image to extract structured invoice data")
 
-# ----------------- OCR INIT -----------------
+# ----------------- OCR INIT (LAZY LOAD) -----------------
 @st.cache_resource
 def load_reader():
+    import easyocr
     return easyocr.Reader(['en'], gpu=False)
 
 reader = load_reader()
 
 # ----------------- IMAGE PREPROCESS -----------------
 def preprocess_image(img):
+    import cv2
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray = cv2.medianBlur(gray, 3)
     processed = cv2.adaptiveThreshold(
@@ -99,7 +99,6 @@ def extract_invoice_data(img):
             "Gross worth": None
         }
 
-        # Quantity
         qty_match = re.search(r"(\d{1,4}[.,]?\d*)\s*(each|pcs|box|unit|pack)?", item, re.I)
         if qty_match:
             try:
@@ -108,7 +107,6 @@ def extract_invoice_data(img):
             except:
                 pass
 
-        # Prices
         prices = re.findall(r"(\d{1,5}[.,]\d{2})", item)
         prices = [float(p.replace(",", ".")) for p in prices]
 
@@ -119,7 +117,6 @@ def extract_invoice_data(img):
         elif len(prices) == 2:
             parsed["Net worth"], parsed["Gross worth"] = prices
 
-        # Description
         desc = re.sub(r"(\d{1,5}[.,]\d{2})", "", item)
         desc = re.sub(r"^\d{1,2}[\.\)]?\s*", "", desc)
         parsed["Description"] = desc.strip()
